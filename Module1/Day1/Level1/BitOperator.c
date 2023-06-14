@@ -7,7 +7,7 @@ int bit_operations(int num, int oper_type) {
     }
     else if (oper_type == 2) {
         // Clear 31st bit
-        num &= ~(1 << 31);
+        num &= ~(1 << 30);
     }
     else if (oper_type == 3) {
         // Toggle 16th bit
